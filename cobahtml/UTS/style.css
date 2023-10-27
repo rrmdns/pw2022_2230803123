@@ -1,0 +1,172 @@
+.container{
+    width: 750px;
+    height: 710px;
+    background-color: rgb(220, 220, 220);
+    margin: 0 auto;
+}
+.kiri{
+    width: 196px;
+    background-color: rgb(183, 186, 188);
+    height: 450px;
+    margin: 15px 0 0 18px;
+    border-radius: 40px 0 40px 0 ;
+    box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.8);
+    float: left;
+}
+.sidebar strong{
+    padding: 5px 75px 5px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: rgb(0, 146, 209);
+}
+.logo img{
+    float: left;
+    margin-left: 5px;
+    width: 180px;
+    height: 150px;
+}
+.sidebar{
+    margin: 2px;
+}
+.sidebar ul{
+    list-style: none;
+    width: 80%;
+    height: 40%;
+    padding: 0;
+    margin-left: 15px;
+
+}
+.sidebar li{
+    margin-bottom:2px ;
+    border-bottom:dotted black;
+}
+.sidebar ul li a{
+    padding: 0;
+    color: black;
+    margin-left: 2px;
+    font-size: 9pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+.kanan{
+    width: 500px;
+    height: 600px;
+    margin-right: 18px;
+    float: right;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 40px 0px 40px;
+    margin: 0;
+    float: right;
+    box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.8);
+}
+.header img{
+    width: 100%;
+}
+.menu{
+    width: 496px;
+    padding: 0;
+    margin-top: 14px;
+    height: 50px;
+    float: left;
+    background-color: rgb(0, 146, 209)
+
+}
+.menu ul, .menu li{
+    list-style: none;
+    padding: 0;
+    margin-left : 3px;;
+
+}
+.menu ul li{
+
+    float: left;
+    line-height: 119%;
+    margin-left: 10px;
+
+}
+.menu ul li a:hover{
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    font-size:8pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 2px;
+    background-color: aquamarine;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 2px;
+    font-size:8pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:black;
+    padding: 20px 30px 20px 30px;
+}
+.content{
+    width: 496px;
+    float: left;
+    margin-top: 15px;
+    height: 378px;
+    background-color: rgb(183, 186, 188);
+    box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.8);
+
+}
+.footer{
+    width: 715px;
+    text-align: center;
+    margin:40px 0 0 15px;
+    height: 26px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    float: left;
+    box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.8);
+    border-radius: 0 0 40px 40px;
+    background-color: gray;
+}
+.content p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 10pt;
+    margin: 20px 15px 0 10px;
+}
+.isi{
+    width: 485px;
+    height: 200px;
+    margin: 20px 0 0 6px;
+
+}
+.isi img{
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center  ;
+    text-shadow: 2px 1px 2px rgb(77, 77, 77);
+}
+.galeri img{
+    width: 190px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 0px;
+}
+.content form{
+    margin-left: 125px;
+    color: black;
+}
+.content input{
+    width: 235px;
+    height: 25px;
+}
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    display: block;
+    width: 70px;
+    height: 25px;
+}
